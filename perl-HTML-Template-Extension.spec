@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	Template-Extension
 Summary:	HTML::Template::Extension - Module support extension for HTML::Template
-#Summary(pl):	
+Summary(pl):	HTML::Template::Extension - rozszerzenie obs³uguj±ce modu³y dla HTML::Template
 Name:		perl-HTML-Template-Extension
 Version:	0.24
 Release:	1
@@ -27,10 +27,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module extends HTML::Template to easily support methods and tags
 not implemented in parent module. Piece of code needed to add new tags
 syntax and new functionality are called plugins. All plugins can be
-dynamically loaded for supporing needed syntax and functionality.
+dynamically loaded for supporting needed syntax and functionality.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ rozszerza klasê HTML::Template tak, aby mog³a ³atwo
+obs³ugiwaæ metody i znaczniki nie zaimplementowane w macierzystym
+module. Kawa³ki kodu potrzebne do dodania sk³adni nowych znaczników i
+nowej funkcjonalno¶ci s± nazywane wtyczkami. Wszystkie wtyczki mog±
+byæ dynamicznie wczytywane w celu obs³ugi wymaganej sk³adni i
+funkcjonalno¶ci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
