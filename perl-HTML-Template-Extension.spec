@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Template-Extension
+%define		pdir	HTML
+%define		pnam	Template-Extension
 Summary:	HTML::Template::Extension - Module support extension for HTML::Template
 Summary(pl):	HTML::Template::Extension - rozszerzenie obs³uguj±ce modu³y dla HTML::Template
 Name:		perl-HTML-Template-Extension
