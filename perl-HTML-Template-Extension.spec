@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Template-Extension
 Summary:	HTML::Template::Extension - Module support extension for HTML::Template
-Summary(pl):	HTML::Template::Extension - rozszerzenie obs≥uguj±ce modu≥y dla HTML::Template
+Summary(pl.UTF-8):   HTML::Template::Extension - rozszerzenie obs≈ÇugujƒÖce modu≈Çy dla HTML::Template
 Name:		perl-HTML-Template-Extension
 Version:	0.24
 Release:	1
@@ -29,13 +29,13 @@ not implemented in parent module. Piece of code needed to add new tags
 syntax and new functionality are called plugins. All plugins can be
 dynamically loaded for supporting needed syntax and functionality.
 
-%description -l pl
-Ten modu≥ rozszerza klasÍ HTML::Template tak, aby mog≥a ≥atwo
-obs≥ugiwaÊ metody i znaczniki nie zaimplementowane w macierzystym
-module. Kawa≥ki kodu potrzebne do dodania sk≥adni nowych znacznikÛw i
-nowej funkcjonalno∂ci s± nazywane wtyczkami. Wszystkie wtyczki mog±
-byÊ dynamicznie wczytywane w celu obs≥ugi wymaganej sk≥adni i
-funkcjonalno∂ci.
+%description -l pl.UTF-8
+Ten modu≈Ç rozszerza klasƒô HTML::Template tak, aby mog≈Ça ≈Çatwo
+obs≈Çugiwaƒá metody i znaczniki nie zaimplementowane w macierzystym
+module. Kawa≈Çki kodu potrzebne do dodania sk≈Çadni nowych znacznik√≥w i
+nowej funkcjonalno≈õci sƒÖ nazywane wtyczkami. Wszystkie wtyczki mogƒÖ
+byƒá dynamicznie wczytywane w celu obs≈Çugi wymaganej sk≈Çadni i
+funkcjonalno≈õci.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
