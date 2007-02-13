@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Template-Extension
 Summary:	HTML::Template::Extension - Module support extension for HTML::Template
-Summary(pl.UTF-8):   HTML::Template::Extension - rozszerzenie obsługujące moduły dla HTML::Template
+Summary(pl.UTF-8):	HTML::Template::Extension - rozszerzenie obsługujące moduły dla HTML::Template
 Name:		perl-HTML-Template-Extension
 Version:	0.24
 Release:	1
