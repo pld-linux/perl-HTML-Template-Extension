@@ -8,7 +8,7 @@ Summary:	HTML::Template::Extension - Module support extension for HTML::Template
 Summary(pl.UTF-8):	HTML::Template::Extension - rozszerzenie obsługujące moduły dla HTML::Template
 Name:		perl-HTML-Template-Extension
 Version:	0.26
-Release:	1
+Release:	2
 License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
